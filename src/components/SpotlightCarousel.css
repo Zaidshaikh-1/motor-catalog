@@ -1,0 +1,50 @@
+.spotlight-carousel-container {
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.spotlight-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.spotlight-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #fff, var(--color-text-muted));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.spotlight-header p {
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    gap: 2rem;
+    padding: 1rem 5%;
+    /* Horizontal padding */
+    scroll-snap-type: x mandatory;
+    padding-bottom: 2rem;
+    /* Space for scrollbar or shadow */
+
+    /* Hide scrollbar for cleaner look if desired, but user asked for scrolling */
+    scrollbar-width: thin;
+}
+
+.carousel-item {
+    min-width: 300px;
+    max-width: 350px;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        min-width: 350px;
+    }
+}

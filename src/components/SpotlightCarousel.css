@@ -37,10 +37,10 @@
 }
 
 .carousel-item {
-    min-width: 300px;
+    /* min-width: 300px;
     max-width: 350px;
     flex: 0 0 auto;
-    scroll-snap-align: center;
+    scroll-snap-align: center; */
     border-radius: 6px; /* new */
     position: absolute;
     left: max(calc(280px * 5), 100%);

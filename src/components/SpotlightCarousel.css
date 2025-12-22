@@ -41,6 +41,13 @@
     max-width: 350px;
     flex: 0 0 auto;
     scroll-snap-align: center;
+    border-radius: 6px; /* new */
+    position: absolute;
+    left: max(calc(280px * 5), 100%);
+    animation-name: scrollLeft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @media (min-width: 768px) {

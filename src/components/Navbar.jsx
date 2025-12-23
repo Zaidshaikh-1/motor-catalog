@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
 
             <div className={`mobile-menu ${isOpen ? 'open' : ''}`}>
-                <button className="close-btn" onClick={toggleMenu}>&times;</button>
+                {/* <button className="close-btn" onClick={toggleMenu}>&times;</button> */}
                 <ul className="nav-links">
                     <li onClick={() => handleNavigation('all')}>All</li>
                     <li onClick={() => handleNavigation('sedan')}>Sedans</li>

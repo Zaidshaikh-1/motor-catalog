@@ -1,6 +1,6 @@
-import sedanImg from '../assets/sedan.png';
-import coupeImg from '../assets/coupe.png';
-import suvImg from '../assets/suv.png';
+import sedanImg from '../assets/kia-sedan-car.webp';
+import coupeImg from '../assets/coup.webp';
+import suvImg from '../assets/mahindra.webp';
 
 // Using the same images for variety in mock data, normally would have distinct images
 export const cars = [
@@ -11,7 +11,7 @@ export const cars = [
     price: "$45,000",
     image: sedanImg,
     description: "The ultimate electric sedan with unparalleled range and comfort.",
-    externalUrl: "https://example.com/buy/model-s"
+    externalUrl: "https://www.kia.com/in/home.html"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const cars = [
     price: "$65,000",
     image: coupeImg,
     description: "Sporty, aggressive, and built for speed. Experience the thrill.",
-    externalUrl: "https://example.com/buy/gt-coupe"
+    externalUrl: "https://www.bmw.in/en/all-models/m-series/bmw-4-series-m-models/bmw-m4-coupe.html#tabs-3bb6524ab9-item-38b9948aba-tab"
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const cars = [
     price: "$55,000",
     image: suvImg,
     description: "Conquer any terrain with luxury and power combined.",
-    externalUrl: "https://example.com/buy/terrain-x"
+    externalUrl: "https://auto.mahindra.com/suv/xuv3xo/X3XO.html"
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const cars = [
     price: "$50,000",
     image: sedanImg,
     description: "Business class travel on the road. Sophisticated and smart.",
-    externalUrl: "https://example.com/buy/executive"
+    externalUrl: "https://www.kia.com/in/home.html"
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const cars = [
     price: "$70,000",
     image: coupeImg,
     description: "Open top freedom with racing DNA.",
-    externalUrl: "https://example.com/buy/spider"
+    externalUrl: "https://www.bmw.in/en/all-models/m-series/bmw-4-series-m-models/bmw-m4-coupe.html#tabs-3bb6524ab9-item-38b9948aba-tab"
   },
   {
     id: 6,
@@ -56,6 +56,6 @@ export const cars = [
     price: "$48,000",
     image: suvImg,
     description: "Safety and space for the whole family without compromising style.",
-    externalUrl: "https://example.com/buy/family"
+    externalUrl: "https://auto.mahindra.com/suv/xuv3xo/X3XO.html"
   }
 ];

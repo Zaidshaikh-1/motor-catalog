@@ -10,8 +10,9 @@ const SpotlightCarousel = ({ cars }) => {
                 <p>Featured Selection</p>
             </div>
             <div className="carousel-track">
-                {cars.map((car) => (
-                    <div key={car.id} className="carousel-item">
+                {/* Duplicate list for seamless infinite scroll */}
+                {[...cars, ...cars].map((car, index) => (
+                    <div key={`${car.id}-${index}`} className="carousel-item">
                         <CarCard car={car} />
                     </div>
                 ))}
